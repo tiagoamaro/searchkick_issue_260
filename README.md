@@ -10,9 +10,10 @@ This repository is an example Rails app running with the following setup:
 ## Installation
 
 * Clone this repository
-* `bundle install`
-* `rails s`
-* Visit localhost:3000 and see the elasticsearch error
+* Run `bundle install`
+* Run `rake db:migrate`
+* Run `rails s`
+* Visit `http://localhost:3000` and see the elasticsearch error
 
 ## References
 
